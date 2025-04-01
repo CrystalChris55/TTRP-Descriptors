@@ -1,0 +1,12 @@
+Sandbox_EN = {
+    Sandbox_TTRP Descriptors = "TTRP Descriptors",
+    Sandbox_ToggleQuestions = "Toggles Question Category.",
+    Sandbox_ToggleExclamations = "Toggles Exclaims Category.",
+    Sandbox_TogglePinnedNotes = "Toggles Pinned Paper Category.",
+    Sandbox_ToggleShapes = "Toggles Shapes Category.",
+    Sandbox_ToggleProps = "Toggles Props Category.",
+    Sandbox_AllowNonAdminShapes = "Toggles Limited Category.",
+           Sandbox_AllowNonAdminShapes_tooltip = "Enables a limited category that only features exclaims and questions and shapes for the players.",
+    Sandbox_ToggleUI = "Toggles the UI.",
+            Sandbox_ToggleUI_tooltip = "Enables the UI for usage by non-admins, will do nothing if there are no categories enabled.",
+  }

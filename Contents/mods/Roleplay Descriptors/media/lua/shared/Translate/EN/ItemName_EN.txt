@@ -1,0 +1,22 @@
+ItemName_EN = {
+    ItemName_TTRPDescriptors.ExclamationRed = "Red Exclamation",
+    ItemName_TTRPDescriptors.ExclamationOrange = "Orange Exclamation",
+    ItemName_TTRPDescriptors.ExclamationYellow = "Yellow Exclamation",
+    ItemName_TTRPDescriptors.ExclamationGreen = "Green Exclamation",
+    ItemName_TTRPDescriptors.ExclamationBlue = "Blue Exclamation",
+    ItemName_TTRPDescriptors.ExclamationPink = "Pink Exclamation",
+    ItemName_TTRPDescriptors.ExclamationPurple = "Purple Exclamation",
+    ItemName_TTRPDescriptors.ExclamationWhite = "White Exclamation",
+    ItemName_TTRPDescriptors.ExclamationGrey = "Grey Exclamation",
+    ItemName_TTRPDescriptors.ExclamationBlack = "Black Exclamation"
+    ItemName_TTRPDescriptors.QuestionRed = "Red Question",
+    ItemName_TTRPDescriptors.QuestionOrange = "Orange Question",
+    ItemName_TTRPDescriptors.QuestionYellow = "Yellow Question",
+    ItemName_TTRPDescriptors.QuestionGreen = "Green Question",
+    ItemName_TTRPDescriptors.QuestionBlue = "Blue Question",
+    ItemName_TTRPDescriptors.QuestionPink = "Pink Question",
+    ItemName_TTRPDescriptors.QuestionPurple = "Purple Question",
+    ItemName_TTRPDescriptors.QuestionWhite = "White Question",
+    ItemName_TTRPDescriptors.QuestionGrey = "Grey Question",
+    ItemName_TTRPDescriptors.QuestionBlack = "Black Question",
+}

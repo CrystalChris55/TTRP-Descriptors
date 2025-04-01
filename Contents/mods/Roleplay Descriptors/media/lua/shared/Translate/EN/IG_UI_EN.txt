@@ -1,0 +1,10 @@
+IGUI_EN = {
+IGUI_TTRPDescriptors = "TTRPDescriptors",
+IGUI_TTRPDescriptors_DeleteScene = "Are you sure you want to delete this scene?",
+IGUI_TTRPDescriptors_Categories_Exclamations = "Exclamation Scenes",
+IGUI_TTRPDescriptors_Categories_Questions = "Question Scenes",
+IGUI_TTRPDescriptors_Categories_Shapes = "Shapes Scenes",
+IGUI_TTRPDescriptors_Categories_propscenes = "Prop Scenes",
+IGUI_TTRPDescriptors_Categories_PinnedNotes = "Pinned Notes",
+IGUI_TTRPDescriptors_Categories_AdminShapes = "Player-made scenes",
+}

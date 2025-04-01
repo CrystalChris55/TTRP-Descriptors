@@ -1,0 +1,44 @@
+VERSION = 1,
+
+option  TTRPDescriptors.ToggleQuestions
+{
+	type = boolean, default = false,
+	page = TTRP Descriptors, translation = ToggleQuestions,
+}
+
+option  TTRPDescriptors.ToggleExclamations
+{
+	type = boolean, default = false,
+	page = TTRP Descriptors, translation = ToggleExclamations,
+}
+
+option  TTRPDescriptors.TogglePinnedNotes
+{
+	type = boolean, default = false,
+	page = TTRP Descriptors, translation = TogglePinnedNotes,
+}
+
+option  TTRPDescriptors.ToggleShapes
+{
+	type = boolean, default = false,
+	page = TTRP Descriptors, translation = ToggleShapes,
+}
+
+option  TTRPDescriptors.ToggleProps
+{
+	type = boolean, default = false,
+	page = TTRP Descriptors, translation = ToggleProps,
+}
+
+option  TTRPDescriptors.AllowNonAdminShapes
+{
+	type = boolean, default = false,
+	page = TTRP Descriptors, translation = AllowNonAdminShapes,
+}
+
+option  TTRPDescriptors.ToggleUI
+{
+	type = boolean, default = false,
+	page = TTRP Descriptors, translation = ToggleUI,
+}
+

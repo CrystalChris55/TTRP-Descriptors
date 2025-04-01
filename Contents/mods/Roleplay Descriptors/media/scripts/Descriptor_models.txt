@@ -1,0 +1,674 @@
+module Base {
+
+	model ExclamationRed
+    {
+        mesh = WorldItems/ExclaimDown,
+        texture = WorldItems/RedDescriptor,
+        scale = 1,
+    }
+
+    model ExclamationOrange
+    {
+        mesh = WorldItems/ExclaimDown,
+        texture = WorldItems/OrangeDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationYellow
+    {
+        mesh = WorldItems/ExclaimDown,
+        texture = WorldItems/YellowDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationGreen
+    {
+        mesh = WorldItems/ExclaimDown,
+        texture = WorldItems/GreenDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationBlue
+    {
+        mesh = WorldItems/ExclaimDown,
+        texture = WorldItems/BlueDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationPink
+    {
+        mesh = WorldItems/ExclaimDown,
+        texture = WorldItems/PinkDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationPurple
+    {
+        mesh = WorldItems/ExclaimDown,
+        texture = WorldItems/PurpleDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationWhite
+    {
+        mesh = WorldItems/ExclaimDown,
+        texture = WorldItems/WhiteDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationGrey
+    {
+        mesh = WorldItems/ExclaimDown,
+        texture = WorldItems/GreyDescriptor,
+        scale = 1,
+    }	
+	
+	model ExclamationBlack
+    {
+        mesh = WorldItems/ExclaimDown,
+        texture = WorldItems/BlackDescriptor,
+        scale = 1,
+    }
+
+	model QuestionRed
+    {
+        mesh = WorldItems/QuestionDown,
+        texture = WorldItems/RedDescriptor,
+        scale = 1,
+    }
+
+    model QuestionOrange
+    {
+        mesh = WorldItems/QuestionDown,
+        texture = WorldItems/OrangeDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionYellow
+    {
+        mesh = WorldItems/QuestionDown,
+        texture = WorldItems/YellowDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionGreen
+    {
+        mesh = WorldItems/QuestionDown,
+        texture = WorldItems/GreenDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionBlue
+    {
+        mesh = WorldItems/QuestionDown,
+        texture = WorldItems/BlueDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionPink
+    {
+        mesh = WorldItems/QuestionDown,
+        texture = WorldItems/PinkDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionPurple
+    {
+        mesh = WorldItems/QuestionDown,
+        texture = WorldItems/PurpleDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionWhite
+    {
+        mesh = WorldItems/QuestionDown,
+        texture = WorldItems/WhiteDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionGrey
+    {
+        mesh = WorldItems/QuestionDown,
+        texture = WorldItems/GreyDescriptor,
+        scale = 1,
+    }	
+	
+	model QuestionBlack
+    {
+        mesh = WorldItems/QuestionDown,
+        texture = WorldItems/BlackDescriptor,
+        scale = 1,
+    }
+		/***** Floating Variants *****/
+
+	model ExclamationRedFloating
+    {
+        mesh = WorldItems/ExclaimUp,
+        texture = WorldItems/RedDescriptor,
+        scale = 1,
+    }
+
+    model ExclamationOrangeFloating
+    {
+        mesh = WorldItems/ExclaimUp,
+        texture = WorldItems/OrangeDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationYellowFloating
+    {
+        mesh = WorldItems/ExclaimUp,
+        texture = WorldItems/YellowDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationGreenFloating
+    {
+        mesh = WorldItems/ExclaimUp,
+        texture = WorldItems/GreenDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationBlueFloating
+    {
+        mesh = WorldItems/ExclaimUp,
+        texture = WorldItems/BlueDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationPinkFloating
+    {
+        mesh = WorldItems/ExclaimUp,
+        texture = WorldItems/PinkDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationPurpleFloating
+    {
+        mesh = WorldItems/ExclaimUp,
+        texture = WorldItems/PurpleDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationWhiteFloating
+    {
+        mesh = WorldItems/ExclaimUp,
+        texture = WorldItems/WhiteDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationGreyFloating
+    {
+        mesh = WorldItems/ExclaimUp,
+        texture = WorldItems/GreyDescriptor,
+        scale = 1,
+    }	
+	
+	model ExclamationBlackFloating
+    {
+        mesh = WorldItems/ExclaimUp,
+        texture = WorldItems/BlackDescriptor,
+        scale = 1,
+    }
+
+	model QuestionRedFloating
+    {
+        mesh = WorldItems/QuestionUp,
+        texture = WorldItems/RedDescriptor,
+        scale = 1,
+    }
+
+    model QuestionOrangeFloating
+    {
+        mesh = WorldItems/QuestionUp,
+        texture = WorldItems/OrangeDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionYellowFloating
+    {
+        mesh = WorldItems/QuestionUp,
+        texture = WorldItems/YellowDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionGreenFloating
+    {
+        mesh = WorldItems/QuestionUp,
+        texture = WorldItems/GreenDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionBlueFloating
+    {
+        mesh = WorldItems/QuestionUp,
+        texture = WorldItems/BlueDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionPinkFloating
+    {
+        mesh = WorldItems/QuestionUp,
+        texture = WorldItems/PinkDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionPurpleFloating
+    {
+        mesh = WorldItems/QuestionUp,
+        texture = WorldItems/PurpleDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionWhiteFloating
+    {
+        mesh = WorldItems/QuestionUp,
+        texture = WorldItems/WhiteDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionGreyFloating
+    {
+        mesh = WorldItems/QuestionUp,
+        texture = WorldItems/GreyDescriptor,
+        scale = 1,
+    }	
+	
+	model QuestionBlackFloating
+    {
+        mesh = WorldItems/QuestionUp,
+        texture = WorldItems/BlackDescriptor,
+        scale = 1,
+    }
+		/***** X Shapes Variants *****/
+
+    model XRed
+    {
+        mesh = WorldItems/Xdown,
+        texture = WorldItems/RedDescriptor,
+        scale = 1,
+    }
+
+    model XOrange
+    {
+        mesh = WorldItems/Xdown,
+        texture = WorldItems/OrangeDescriptor,
+        scale = 1,
+    }
+	
+	model XYellow
+    {
+        mesh = WorldItems/Xdown,
+        texture = WorldItems/YellowDescriptor,
+        scale = 1,
+    }
+	
+	model XGreen
+    {
+        mesh = WorldItems/Xdown,
+        texture = WorldItems/GreenDescriptor,
+        scale = 1,
+    }
+	
+	model XBlue
+    {
+        mesh = WorldItems/Xdown,
+        texture = WorldItems/BlueDescriptor,
+        scale = 1,
+    }
+	
+	model XPink
+    {
+        mesh = WorldItems/Xdown,
+        texture = WorldItems/PinkDescriptor,
+        scale = 1,
+    }
+	
+	model XPurple
+    {
+        mesh = WorldItems/Xdown,
+        texture = WorldItems/PurpleDescriptor,
+        scale = 1,
+    }
+	
+	model XWhite
+    {
+        mesh = WorldItems/Xdown,
+        texture = WorldItems/WhiteDescriptor,
+        scale = 1,
+    }
+	
+	model XGrey
+    {
+        mesh = WorldItems/Xdown,
+        texture = WorldItems/GreyDescriptor,
+        scale = 1,
+    }	
+	
+	model XBlack
+    {
+        mesh = WorldItems/Xdown,
+        texture = WorldItems/BlackDescriptor,
+        scale = 1,
+    }
+
+	model XRedFloating
+    {
+        mesh = WorldItems/XUp,
+        texture = WorldItems/RedDescriptor,
+        scale = 1,
+    }
+
+    model XOrangeFloating
+    {
+        mesh = WorldItems/XUp,
+        texture = WorldItems/OrangeDescriptor,
+        scale = 1,
+    }
+	
+	model XYellowFloating
+    {
+        mesh = WorldItems/XUp,
+        texture = WorldItems/YellowDescriptor,
+        scale = 1,
+    }
+	
+	model XGreenFloating
+    {
+        mesh = WorldItems/XUp,
+        texture = WorldItems/GreenDescriptor,
+        scale = 1,
+    }
+	
+	model XBlueFloating
+    {
+        mesh = WorldItems/XUp,
+        texture = WorldItems/BlueDescriptor,
+        scale = 1,
+    }
+	
+	model XPinkFloating
+    {
+        mesh = WorldItems/XUp,
+        texture = WorldItems/PinkDescriptor,
+        scale = 1,
+    }
+	
+	model XPurpleFloating
+    {
+        mesh = WorldItems/XUp,
+        texture = WorldItems/PurpleDescriptor,
+        scale = 1,
+    }
+	
+	model XWhiteFloating
+    {
+        mesh = WorldItems/XUp,
+        texture = WorldItems/WhiteDescriptor,
+        scale = 1,
+    }
+	
+	model XGreyFLoating
+    {
+        mesh = WorldItems/XUp,
+        texture = WorldItems/GreyDescriptor,
+        scale = 1,
+    }	
+	
+	model XBlackFloating
+    {
+        mesh = WorldItems/XUp,
+        texture = WorldItems/BlackDescriptor,
+        scale = 1,
+    }
+		/***** O Shapes Variants *****/
+
+    model ORed
+    {
+        mesh = WorldItems/Odown,
+        texture = WorldItems/RedDescriptor,
+        scale = 1,
+    }
+
+    model OOrange
+    {
+        mesh = WorldItems/Odown,
+        texture = WorldItems/OrangeDescriptor,
+        scale = 1,
+    }
+	
+	model OYellow
+    {
+        mesh = WorldItems/Odown,
+        texture = WorldItems/YellowDescriptor,
+        scale = 1,
+    }
+	
+	model OGreen
+    {
+        mesh = WorldItems/Odown,
+        texture = WorldItems/GreenDescriptor,
+        scale = 1,
+    }
+	
+	model OBlue
+    {
+        mesh = WorldItems/Odown,
+        texture = WorldItems/BlueDescriptor,
+        scale = 1,
+    }
+	
+	model OPink
+    {
+        mesh = WorldItems/Odown,
+        texture = WorldItems/PinkDescriptor,
+        scale = 1,
+    }
+	
+	model OPurple
+    {
+        mesh = WorldItems/Odown,
+        texture = WorldItems/PurpleDescriptor,
+        scale = 1,
+    }
+	
+	model OWhite
+    {
+        mesh = WorldItems/Odown,
+        texture = WorldItems/WhiteDescriptor,
+        scale = 1,
+    }
+	
+	model OGrey
+    {
+        mesh = WorldItems/Odown,
+        texture = WorldItems/GreyDescriptor,
+        scale = 1,
+    } 
+	
+	model OBlack
+    {
+        mesh = WorldItems/Odown,
+        texture = WorldItems/BlackDescriptor,
+        scale = 1,
+    }
+
+	model ORedFloating
+    {
+        mesh = WorldItems/OUp,
+        texture = WorldItems/RedDescriptor,
+        scale = 1,
+    }
+
+    model OOrangeFloating
+    {
+        mesh = WorldItems/OUp,
+        texture = WorldItems/OrangeDescriptor,
+        scale = 1,
+    }
+	
+	model OYellowFloating
+    {
+        mesh = WorldItems/OUp,
+        texture = WorldItems/YellowDescriptor,
+        scale = 1,
+    }
+	
+	model OGreenFloating
+    {
+        mesh = WorldItems/OUp,
+        texture = WorldItems/GreenDescriptor,
+        scale = 1,
+    }
+	
+	model OBlueFloating
+    {
+        mesh = WorldItems/OUp,
+        texture = WorldItems/BlueDescriptor,
+        scale = 1,
+    }
+	
+	model OPinkFloating
+    {
+        mesh = WorldItems/OUp,
+        texture = WorldItems/PinkDescriptor,
+        scale = 1,
+    }
+	
+	model OPurpleFloating
+    {
+        mesh = WorldItems/OUp,
+        texture = WorldItems/PurpleDescriptor,
+        scale = 1,
+    }
+	
+	model OWhiteFloating
+    {
+        mesh = WorldItems/OUp,
+        texture = WorldItems/WhiteDescriptor,
+        scale = 1,
+    }
+	
+	model OGreyFloating
+    {
+        mesh = WorldItems/OUp,
+        texture = WorldItems/GreyDescriptor,
+        scale = 1,
+    } 
+	
+	model OBlackFloating
+    {
+        mesh = WorldItems/OUp,
+        texture = WorldItems/BlackDescriptor,
+        scale = 1,
+    }
+
+		/***** Paper Shapes Variants *****/
+
+	model PinnedPaper
+    {
+        mesh = WorldItems/PaperWall,
+        texture = WorldItems/SheetOfPaper,
+        scale = 1,
+    }
+	
+	model PinnedPaperKnife
+    {
+        mesh = WorldItems/KnifePaper,
+        texture = WorldItems/KnifePaper,
+        scale = 1,
+    }
+	
+	model PinnedPaperScrewdriver
+    {
+        mesh = WorldItems/ScrewPaper,
+        texture = WorldItems/ScrewPaper,
+        scale = 1,
+    }
+
+    model MetalSignpost
+    {
+        mesh = WorldItems/MetalSignpost,
+        texture = WorldItems/SignpostMetal,
+        scale = 0.1,
+    }
+
+        model MetalSignpostAlert
+    {
+        mesh = WorldItems/MetalSignpost,
+        texture = WorldItems/SignpostMetalAlert,
+        scale = 0.1,
+    }
+
+        model MetalSignpostOvergrown
+    {
+        mesh = WorldItems/MetalSignpost,
+        texture = WorldItems/SignpostMetalOvergrown,
+        scale = 0.1,
+    }
+
+        model MetalSignpostBloody
+    {
+        mesh = WorldItems/MetalSignpost,
+        texture = WorldItems/SignpostMetalBloody,
+        scale = 0.1,
+    }
+
+        model MetalSignpostHeal
+    {
+        mesh = WorldItems/MetalSignpost,
+        texture = WorldItems/SignpostMetalHeal,
+        scale = 0.1,
+    }
+
+    model WoodenSignpost
+    {
+        mesh = WorldItems/WoodenSignpost,
+        texture = WorldItems/WoodenSignpostText,
+        scale = 0.05,
+    }
+
+    model WoodenSignpostOvergrown
+    {
+        mesh = WorldItems/WoodenSignpost,
+        texture = WorldItems/WoodenSignpostOverGrown,
+        scale = 0.05,
+    }
+
+    model WoodenSignpostBloody
+    {
+        mesh = WorldItems/WoodenSignpost,
+        texture = WorldItems/WoodenSignpostBloody,
+        scale = 0.05,
+    }
+    model FloatingWoodSign
+    {
+        mesh = WorldItems/FloatingWoodenSign,
+        texture = WorldItems/FloatingWoodSign,
+        scale = 0.05,
+    }
+    model FloatingWoodSignAlert
+    {
+        mesh = WorldItems/FloatingWoodenSign,
+        texture = WorldItems/FloatingWoodSignAlert,
+        scale = 0.05,
+    }
+    model FloatingWoodSignOvergrown
+    {
+        mesh = WorldItems/FloatingWoodenSign,
+        texture = WorldItems/FloatingWoodSignOvergrown,
+        scale = 0.05,
+    }
+    model FloatingWoodSignHeal
+    {
+        mesh = WorldItems/FloatingWoodenSign,
+        texture = WorldItems/FloatingWoodSignHeal,
+        scale = 0.05,
+    }
+    model BloodPuddle
+    {
+        mesh = WorldItems/BloodPuddle,
+        texture = WorldItems/BloodPuddle,
+        scale = 0.05,
+    }
+}

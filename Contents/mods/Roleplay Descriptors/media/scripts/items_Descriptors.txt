@@ -1,0 +1,1417 @@
+module TTRPDescriptors {
+    imports
+    {
+        Base
+    }
+
+  	item ExclamationRed
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Red,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationRed,
+		WorldStaticModel = ExclamationRed,
+    }
+	
+	item ExclamationOrange
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Orange,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationOrange,
+		WorldStaticModel = ExclamationOrange,
+    }
+		
+	item ExclamationYellow
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Yellow,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationYellow,
+		WorldStaticModel = ExclamationYellow,
+    }
+		
+	item ExclamationGreen
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Green,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationGreen,
+		WorldStaticModel = ExclamationGreen,
+    }
+		
+	item ExclamationBlue
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Blue,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationBlue,
+		WorldStaticModel = ExclamationBlue,
+    }
+		
+	item ExclamationPink
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Pink,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationPink,
+		WorldStaticModel = ExclamationPink,
+    }
+		
+	item ExclamationPurple
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Purple,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationPurple,
+		WorldStaticModel = ExclamationPurple,
+    }
+		
+	item ExclamationWhite
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim White,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationWhite,
+		WorldStaticModel = ExclamationWhite,
+    }
+		
+	item ExclamationGrey
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Grey,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationGrey,
+		WorldStaticModel = ExclamationGrey,
+    }
+		
+	item ExclamationBlack
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Black,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationBlack,
+		WorldStaticModel = ExclamationBlack,
+    }
+
+	item QuestionRed
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Red,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionRed,
+		WorldStaticModel = QuestionRed,
+    }
+	
+	item QuestionOrange
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Orange,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionOrange,
+		WorldStaticModel = QuestionOrange,
+    }
+		
+	item QuestionYellow
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Yellow,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionYellow,
+		WorldStaticModel = QuestionYellow,
+    }
+		
+	item QuestionGreen
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Green,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionGreen,
+		WorldStaticModel = QuestionGreen,
+    }
+		
+	item QuestionBlue
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Blue,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionBlue,
+		WorldStaticModel = QuestionBlue,
+    }
+		
+	item QuestionPink
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Pink,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionPink,
+		WorldStaticModel = QuestionPink,
+    }
+		
+	item QuestionPurple
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Purple,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionPurple,
+		WorldStaticModel = QuestionPurple,
+    }
+		
+	item QuestionWhite
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question White,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionWhite,
+		WorldStaticModel = QuestionWhite,
+    }
+		
+	item QuestionGrey
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Grey,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionGrey,
+		WorldStaticModel = QuestionGrey,
+    }
+		
+	item QuestionBlack
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Black,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionBlack,
+		WorldStaticModel = QuestionBlack,
+    }
+	/***** X Shapes Variants *****/
+
+      	item XRed
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Red X Shaped Descriptor,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationRed,
+		WorldStaticModel = XRed,
+    }
+	
+	item XOrange
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Orange X Shaped Descriptor,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationOrange,
+		WorldStaticModel = XOrange,
+    }
+		
+	item XYellow
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Yellow X Shaped Descriptor,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationYellow,
+		WorldStaticModel = XYellow,
+    }
+		
+	item XGreen
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Green X Shaped Descriptor,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationGreen,
+		WorldStaticModel = XGreen,
+    }
+		
+	item XBlue
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Blue X Shaped Descriptor,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationBlue,
+		WorldStaticModel = XBlue,
+    }
+		
+	item XPink
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Pink X Shaped Descriptor,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationPink,
+		WorldStaticModel = XPink,
+    }
+		
+	item XPurple
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Purple X Shaped Descriptor,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationPurple,
+		WorldStaticModel = XPurple,
+    }
+		
+	item XWhite
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = White X Shaped Descriptor,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationWhite,
+		WorldStaticModel = XWhite,
+    }
+		
+	item XGrey
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Grey X Shaped Descriptor,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationGrey,
+		WorldStaticModel = XGrey,
+    }
+		
+	item XBlack
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Black X Shaped Descriptor,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationBlack,
+		WorldStaticModel = XBlack,
+    }
+
+	item XRedFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Red X Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionRed,
+		WorldStaticModel = XRedFloating,
+    }
+	
+	item XOrangeFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Orange X Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionOrange,
+		WorldStaticModel = XOrangeFloating,
+    }
+		
+	item XYellowFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Yellow X Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionYellow,
+		WorldStaticModel = XYellowFloating,
+    }
+		
+	item XGreenFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Green X Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionGreen,
+		WorldStaticModel = XGreenFloating,
+    }
+		
+	item XBlueFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Blue X Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionBlue,
+		WorldStaticModel = XBlueFloating,
+    }
+		
+	item XPinkFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Pink X Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionPink,
+		WorldStaticModel = XPinkFloating,
+    }
+		
+	item XPurpleFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Purple X Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionPurple,
+		WorldStaticModel = XPurpleFloating,
+    }
+		
+	item XWhiteFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = White X Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionWhite,
+		WorldStaticModel = XWhiteFloating,
+    }
+		
+	item XGreyFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Grey X Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionGrey,
+		WorldStaticModel = XGreyFloating,
+    }
+		
+	item XBlackFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Black X Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionBlack,
+		WorldStaticModel = XBlackFloating,
+    }
+	/***** Floating Variants *****/
+
+    item ExclamationRedFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Red Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationRed,
+		WorldStaticModel = ExclamationRedFloating,
+    }
+	
+	item ExclamationOrangeFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Orange Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationOrange,
+		WorldStaticModel = ExclamationOrangeFloating,
+    }
+		
+	item ExclamationYellowFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Yellow Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationYellow,
+		WorldStaticModel = ExclamationYellowFloating,
+    }
+		
+	item ExclamationGreenFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Green Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationGreen,
+		WorldStaticModel = ExclamationGreenFloating,
+    }
+		
+	item ExclamationBlueFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Blue Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationBlue,
+		WorldStaticModel = ExclamationBlueFloating,
+    }
+		
+	item ExclamationPinkFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Pink Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationPink,
+		WorldStaticModel = ExclamationPinkFloating,
+    }
+		
+	item ExclamationPurpleFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Purple Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationPurple,
+		WorldStaticModel = ExclamationPurpleFloating,
+    }
+		
+	item ExclamationWhiteFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim White Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationWhite,
+		WorldStaticModel = ExclamationWhiteFloating,
+    }
+		
+	item ExclamationGreyFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Grey Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationGrey,
+		WorldStaticModel = ExclamationGreyFloating,
+    }
+		
+	item ExclamationBlackFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim Black Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	ExclamationBlack,
+		WorldStaticModel = ExclamationBlackFloating,
+    }
+
+	item QuestionRedFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Red Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionRed,
+		WorldStaticModel = QuestionRedFloating,
+    }
+	
+	item QuestionOrangeFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Orange Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionOrange,
+		WorldStaticModel = QuestionOrangeFloating,
+    }
+		
+	item QuestionYellowFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Yellow Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionYellow,
+		WorldStaticModel = QuestionYellowFloating,
+    }
+		
+	item QuestionGreenFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Green Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionGreen,
+		WorldStaticModel = QuestionGreenFloating,
+    }
+		
+	item QuestionBlueFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Blue Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionBlue,
+		WorldStaticModel = QuestionBlueFloating,
+    }
+		
+	item QuestionPinkFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Pink Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionPink,
+		WorldStaticModel = QuestionPinkFloating,
+    }
+		
+	item QuestionPurpleFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Purple Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionPurple,
+		WorldStaticModel = QuestionPurpleFloating,
+    }
+		
+	item QuestionWhiteFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question White Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionWhite,
+		WorldStaticModel = QuestionWhiteFloating,
+    }
+		
+	item QuestionGreyFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Grey Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionGrey,
+		WorldStaticModel = QuestionGreyFloating,
+    }
+		
+	item QuestionBlackFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question Black Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon	=	QuestionBlack,
+		WorldStaticModel = QuestionBlackFloating,
+    }
+
+    /***** O Shapes ********/
+
+    item ORed
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Red,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationRed,
+        WorldStaticModel = ORed,
+    }
+    
+    item OOrange
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Orange,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationOrange,
+        WorldStaticModel = OOrange,
+    }
+        
+    item OYellow
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Yellow,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationYellow,
+        WorldStaticModel = OYellow,
+    }
+        
+    item OGreen
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Green,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationGreen,
+        WorldStaticModel = OGreen,
+    }
+        
+    item OBlue
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Blue,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationBlue,
+        WorldStaticModel = OBlue,
+    }
+        
+    item OPink
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Pink,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationPink,
+        WorldStaticModel = OPink,
+    }
+        
+    item OPurple
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Purple,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationPurple,
+        WorldStaticModel = OPurple,
+    }
+        
+    item OWhite
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O White,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationWhite,
+        WorldStaticModel = OWhite,
+    }
+        
+    item OGrey
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Grey,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationGrey,
+        WorldStaticModel = OGrey,
+    }
+        
+    item OBlack
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Black,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationBlack,
+        WorldStaticModel = OBlack,
+    }
+
+    item ORed
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Red,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionRed,
+        WorldStaticModel = ORed,
+    }
+    
+    item OOrange
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Orange,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionOrange,
+        WorldStaticModel = OOrange,
+    }
+        
+    item OYellow
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Yellow,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionYellow,
+        WorldStaticModel = OYellow,
+    }
+        
+    item OGreen
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Green,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionGreen,
+        WorldStaticModel = OGreen,
+    }
+        
+    item OBlue
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Blue,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionBlue,
+        WorldStaticModel = OBlue,
+    }
+        
+    item OPink
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Pink,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionPink,
+        WorldStaticModel = OPink,
+    }
+        
+    item OPurple
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Purple,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionPurple,
+        WorldStaticModel = OPurple,
+    }
+        
+    item OWhite
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O White,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionWhite,
+        WorldStaticModel = OWhite,
+    }
+        
+    item OGrey
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Grey,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionGrey,
+        WorldStaticModel = OGrey,
+    }
+        
+    item OBlack
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Black,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionBlack,
+        WorldStaticModel = OBlack,
+    }
+
+    item ORedFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Red Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationRed,
+        WorldStaticModel = ORedFloating,
+    }
+    
+    item OOrangeFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Orange Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationOrange,
+        WorldStaticModel = OOrangeFloating,
+    }
+        
+    item OYellowFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Yellow Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationYellow,
+        WorldStaticModel = OYellowFloating,
+    }
+        
+    item OGreenFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Green Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationGreen,
+        WorldStaticModel = OGreenFloating,
+    }
+        
+    item OBlueFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Blue Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationBlue,
+        WorldStaticModel = OBlueFloating,
+    }
+        
+    item OPinkFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Pink Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationPink,
+        WorldStaticModel = OPinkFloating,
+    }
+        
+    item OPurpleFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Purple Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationPurple,
+        WorldStaticModel = OPurpleFloating,
+    }
+        
+    item OWhiteFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O White Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationWhite,
+        WorldStaticModel = OWhiteFloating,
+    }
+        
+    item OGreyFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Grey Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationGrey,
+        WorldStaticModel = OGreyFloating,
+    }
+        
+    item OBlackFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Black Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    ExclamationBlack,
+        WorldStaticModel = OBlackFloating,
+    }
+
+    item ORedFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Red Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionRed,
+        WorldStaticModel = ORedFloating,
+    }
+    
+    item OOrangeFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Orange Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionOrange,
+        WorldStaticModel = OOrangeFloating,
+    }
+        
+    item OYellowFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Yellow Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionYellow,
+        WorldStaticModel = OYellowFloating,
+    }
+        
+    item OGreenFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Green Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionGreen,
+        WorldStaticModel = OGreenFloating,
+    }
+        
+    item OBlueFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Blue Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionBlue,
+        WorldStaticModel = OBlueFloating,
+    }
+        
+    item OPinkFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Pink Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionPink,
+        WorldStaticModel = OPinkFloating,
+    }
+        
+    item OPurpleFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Purple Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionPurple,
+        WorldStaticModel = OPurpleFloating,
+    }
+        
+    item OWhiteFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O White Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionWhite,
+        WorldStaticModel = OWhiteFloating,
+    }
+        
+    item OGreyFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Grey Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionGrey,
+        WorldStaticModel = OGreyFloating,
+    }
+        
+    item OBlackFloating
+    {
+        DisplayCategory = TTRPDescriptors,
+        Type    =    Literature,
+        DisplayName = O Black Floating,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        Icon    =    QuestionBlack,
+        WorldStaticModel = OBlackFloating,
+    }
+
+
+	/***** Paper Sheets *****/
+
+	item PinnedPaper
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Pinned Sheet of Paper,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   2,
+        Icon	=	Paper,
+		WorldStaticModel = PinnedPaper,
+	}
+
+	item PinnedPaperKnife
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Pinned Sheet of Paper (Hunting Knife),
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   2,
+        Icon	=	PinnedPaperKnife,
+		WorldStaticModel = PinnedPaperKnife,
+	}
+	
+	item PinnedPaperKnife2
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Pinned Sheet of Paper (Kitchen Knife),
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   2,
+        Icon	=	PinnedPaperKnife2,
+		WorldStaticModel = PinnedPaperKnife,
+	}
+
+	item PinnedPaperScrewdriver
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Pinned Sheet of Paper (Screwdriver),
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   2,
+        Icon	=	PinnedPaperScrewdriver,
+		WorldStaticModel = PinnedPaperScrewdriver,
+	}
+
+    item MetalSignpost
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Metal Signpost,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   2,
+        Icon	=	MetalSignpost,
+		WorldStaticModel = MetalSignpost,
+	}
+
+        item MetalSignpostHeal
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Metal Signpost Heal,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   2,
+        Icon	=	MetalSignpost,
+		WorldStaticModel = MetalSignpostHeal,
+	}
+
+        item MetalSignpostBloody
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Metal Signpost Bloody,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   2,
+        Icon	=	MetalSignpost,
+		WorldStaticModel = MetalSignpostBloody,
+	}
+
+        item MetalSignpostAlert
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Metal Signpost Alert,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   2,
+        Icon	=	MetalSignpost,
+		WorldStaticModel = MetalSignpostAlert,
+	}
+
+    item MetalSignpostOvergrown
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Metal Signpost Overgrown,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   2,
+        Icon	=	MetalSignpost,
+		WorldStaticModel = MetalSignpostOvergrown,
+	}
+
+    item WoodenSignpost
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Wooden Signpost Text,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   6,
+        Icon	=	WoodenSignpost,
+		WorldStaticModel = WoodenSignpost,
+	}
+    
+    item WoodenSignpostOvergrown
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Wooden Signpost Overgrown,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   6,
+        Icon	=	WoodenSignpost,
+		WorldStaticModel = WoodenSignpostOvergrown,
+	}
+    
+    item WoodenSignpostBloody
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Wooden Signpost Bloody,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   6,
+        Icon	=	WoodenSignpost,
+		WorldStaticModel = WoodenSignpostBloody,
+	}
+
+    item FloatingWoodSignAlert
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Floating Wood Sign Alert,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   6,
+        Icon	=	FloatingWoodenSign,
+		WorldStaticModel = FloatingWoodSignAlert,
+	}
+
+    item FloatingWoodSignOvergrown
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Floating Wood Sign Overgrown,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   6,
+        Icon	=	FloatingWoodenSign,
+		WorldStaticModel = FloatingWoodSignOvergrown,
+	}
+
+        item FloatingWoodSignHeal
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Floating Wood Sign Heal,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   6,
+        Icon	=	FloatingWoodenSign,
+		WorldStaticModel = FloatingWoodSignHeal,
+	}
+
+        item FloatingWoodSign
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Floating Wood Sign,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   6,
+        Icon	=	FloatingWoodenSign,
+		WorldStaticModel = FloatingWoodSign,
+	}
+
+    item BloodPuddle
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Puddle of Blood,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   3,
+        Icon	=	BloodPuddle,
+		WorldStaticModel = BloodPuddle,
+	}
+}

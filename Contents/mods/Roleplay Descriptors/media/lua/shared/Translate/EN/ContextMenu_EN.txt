@@ -1,0 +1,14 @@
+ContextMenu_EN = {
+    ContextMenu_TTRPDescriptors_CreateExclamation = "Create Exclamation",
+    ContextMenu_TTRPDescriptors_CreateInvestigation = "Create Investigation",
+    ContextMenu_TTRPDescriptors_CreateShapes = "Create Shape",
+    ContextMenu_TTRPDescriptors_CreateScene = "Create Scene",
+    ContextMenu_TTRPDescriptors_PlaceScene = "Place Scene",
+    ContextMenu_TTRPDescriptors_MoveScene = "Move Scene",
+    ContextMenu_TTRPDescriptors_SceneOptions = "Scene Options",
+    ContextMenu_TTRPDescriptors_PickupSceneForEdit = "Pickup Scene for Edit",
+    ContextMenu_TTRPDescriptors_EditScene = "Edit Scene",
+    ContextMenu_TTRPDescriptors_InvestigateScene = "Investigate Scene",
+    ContextMenu_TTRPDescriptors_DeleteScene = "Delete Scene",
+    ContextMenu_TTRPDescriptors_OpenInvestigationUI = "Open Investigation UI",
+}
