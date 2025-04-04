@@ -3,6 +3,8 @@ id=3452557509
 title=TTRP Roleplaying Descriptors
 description=A roleplaying descriptor mod created by CrystalChris and Keks! 
 description=
+description=[b] To open the spawn menu, right click on the ground and click Investigation UI! This is sandbox disabled for non-admin users by default! [/b] 
+description=
 description=Expanding upon the many, multiple already existing Roleplay exclaims mod out there. This mod aims to be the definitive and final answer to immersive roleplaying descriptors for RP servers. The full list of features are below:
 description=
 description=[h1]Features:[/h1]
@@ -16,6 +18,10 @@ description=
 description=
 description=And many more features and shapes/world items to be added! If you have a suggestion, feel free to post them in the discord or the comments below!!
 description=
+description=[h1]Planned Features:[/h1]
+description=[*]  More immersive roleplay objects such as corkboards, white boards, noticeboards, etc.
+description=[*]  Sandbox adjustable range for the halo text to appear atop of a player's head, or a sandbox toggle to disable it.
+description=
 description=
 description=[h1] FOR BUG REPORTS AND FEEDBACK, VISIT THE DISCORD! [/h1]
 description=[url=https://discord.gg/xZUGun99Jr][img]https://i.imgur.com/WMMNhM1.png[/img][/url]
@@ -23,5 +29,9 @@ description=[h1] If you like my work, consider a donation! [/h1]
 description=[url=https://ko-fi.com/crystalchris][img]https://i.imgur.com/e4sIo9x.png[/img][/url]
 description=[h1] Special thanks to the many proud patriots of the PZ Modding Community discord for their endless tolerance of my presence. [/h1]
 description=[url=https://discord.gg/TBZKGSaRZ6][img]https://i.imgur.com/OcsXPpk.png[/img][/url]
+description=
+description=
+description=Workshop ID: 3452557509
+description=Mod ID: TTRPDescriptors
 tags=Build 41
-visibility=unlisted
+visibility=public

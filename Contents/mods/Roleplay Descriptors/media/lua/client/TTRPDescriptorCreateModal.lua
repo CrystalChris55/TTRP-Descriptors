@@ -1,4 +1,5 @@
 ---@diagnostic disable-next-line: global-element
+-- Define a new global variable that derives from the vanilla game's modal creator.
 DescriptorCreateModal = ISCollapsableWindowJoypad:derive('DescriptorCreateModal')
 
 local FONT_HGT_SMALL = getTextManager():getFontHeight(UIFont.Small)
