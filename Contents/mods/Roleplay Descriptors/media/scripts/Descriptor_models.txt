@@ -671,4 +671,223 @@ module Base {
         texture = WorldItems/BloodPuddle,
         scale = 0.05,
     }
+
+    model TTRP_Chain
+    {
+        mesh = WorldItems/TTRP_Chain,
+        texture = WorldItems/TTRP_Chain,
+        scale = 1,
+    }
+    
+    model TTRP_ChainBlood
+    {
+        mesh = WorldItems/TTRP_Chain,
+        texture = WorldItems/TTRP_ChainBlood,
+        scale = 1,
+    }
+
+    model TTRP_ChainBloodOld
+    {
+        mesh = WorldItems/TTRP_Chain,
+        texture = WorldItems/TTRP_ChainBloodOld,
+        scale = 1,
+    }
+
+    model PinnedNoteYellow {
+        mesh = WorldItems/Pinned,
+        texture = WorldItems/PinnedYellow,
+        scale = 1,
+    }
+
+    model PinnedNoteGreen {
+        mesh = WorldItems/Pinned,
+        texture = WorldItems/PinnedGreen,
+        scale = 1,
+    }
+
+    model PinnedNotePurple {
+        mesh = WorldItems/Pinned,
+        texture = WorldItems/PinnedPurple,
+        scale = 1,
+    }
+
+    model PinnedNoteRed {
+        mesh = WorldItems/Pinned,
+        texture = WorldItems/PinnedRed,
+        scale = 1,
+    }
+
+    model PinnedNoteSuperYellow {
+        mesh = WorldItems/Pinned,
+        texture = WorldItems/PinnedSuperYellow,
+        scale = 1,
+    }
+
+    model PinnedNoteCyan {
+        mesh = WorldItems/Pinned,
+        texture = WorldItems/PinnedCyan,
+        scale = 1,
+    }
+
+    model PinnedNoteBlue {
+        mesh = WorldItems/Pinned,
+        texture = WorldItems/PinnedBlue,
+        scale = 1,
+    }
+
+    model PinnedNotePink {
+        mesh = WorldItems/Pinned,
+        texture = WorldItems/PinnedPink,
+        scale = 1,
+    }
+
+
+    model MagnetNoteYellow {
+        mesh = WorldItems/Magnet,
+        texture = WorldItems/MagnetYellow,
+        scale = 1,
+    }
+
+    model MagnetNoteGreen {
+        mesh = WorldItems/Magnet,
+        texture = WorldItems/MagnetGreen,
+        scale = 1,
+    }
+
+    model MagnetNotePurple {
+        mesh = WorldItems/Magnet,
+        texture = WorldItems/MagnetPurple,
+        scale = 1,
+    }
+
+    model MagnetNoteRed {
+        mesh = WorldItems/Magnet,
+        texture = WorldItems/MagnetRed,
+        scale = 1,
+    }
+
+    model MagnetNoteSuperYellow {
+        mesh = WorldItems/Magnet,
+        texture = WorldItems/MagnetSuperYellow,
+        scale = 1,
+    }
+
+    model MagnetNoteCyan {
+        mesh = WorldItems/Magnet,
+        texture = WorldItems/MagnetCyan,
+        scale = 1,
+    }
+
+    model MagnetNoteBlue {
+        mesh = WorldItems/Magnet,
+        texture = WorldItems/MagnetBlue,
+        scale = 1,
+    }
+
+    model MagnetNotePink {
+        mesh = WorldItems/Magnet,
+        texture = WorldItems/MagnetPink,
+        scale = 1,
+    }
+
+
+        
+    model PinnedExclaimNoteYellow {
+        mesh = WorldItems/PinnedExclaim,
+        texture = WorldItems/EPinnedYellow,
+        scale = 1,
+    }
+
+    model PinnedExclaimNoteGreen {
+        mesh = WorldItems/PinnedExclaim,
+        texture = WorldItems/EPinnedGreen,
+        scale = 1,
+    }
+
+    model PinnedExclaimNotePurple {
+        mesh = WorldItems/PinnedExclaim,
+        texture = WorldItems/EPinnedPurple,
+        scale = 1,
+    }
+
+    model PinnedExclaimNoteRed {
+        mesh = WorldItems/PinnedExclaim,
+        texture = WorldItems/EPinnedRed,
+        scale = 1,
+    }
+
+    model PinnedExclaimNoteSuperYellow {
+        mesh = WorldItems/PinnedExclaim,
+        texture = WorldItems/EPinnedSuperYellow,
+        scale = 1,
+    }
+
+    model PinnedExclaimNoteCyan {
+        mesh = WorldItems/PinnedExclaim,
+        texture = WorldItems/EPinnedCyan,
+        scale = 1,
+    }
+
+    model PinnedExclaimNoteBlue {
+        mesh = WorldItems/PinnedExclaim,
+        texture = WorldItems/EPinnedBlue,
+        scale = 1,
+    }
+
+    model PinnedExclaimNotePink {
+        mesh = WorldItems/PinnedExclaim,
+        texture = WorldItems/EPinnedPink,
+        scale = 1,
+    }
+
+
+    model MagnetExclaimNoteYellow {
+        mesh = WorldItems/MagnetExclaim,
+        texture = WorldItems/EMagnetYellow,
+        scale = 1,
+    }
+
+    model MagnetExclaimNoteGreen {
+        mesh = WorldItems/MagnetExclaim,
+        texture = WorldItems/EMagnetGreen,
+        scale = 1,
+    }
+
+    model MagnetExclaimNotePurple {
+        mesh = WorldItems/MagnetExclaim,
+        texture = WorldItems/EMagnetPurple,
+        scale = 1,
+    }
+
+    model MagnetExclaimNoteRed {
+        mesh = WorldItems/MagnetExclaim,
+        texture = WorldItems/EMagnetRed,
+        scale = 1,
+    }
+
+    model MagnetExclaimNoteSuperYellow {
+        mesh = WorldItems/MagnetExclaim,
+        texture = WorldItems/EMagnetSuperYellow,
+        scale = 1,
+    }
+
+    model MagnetExclaimNoteCyan {
+        mesh = WorldItems/MagnetExclaim,
+        texture = WorldItems/EMagnetCyan,
+        scale = 1,
+    }
+
+    model MagnetExclaimNoteBlue {
+        mesh = WorldItems/MagnetExclaim,
+        texture = WorldItems/EMagnetBlue,
+        scale = 1,
+    }
+
+    model MagnetExclaimNotePink {
+        mesh = WorldItems/MagnetExclaim,
+        texture = WorldItems/EMagnetPink,
+        scale = 1,
+    }
+
+    
 }

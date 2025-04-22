@@ -23,6 +23,7 @@ local CategoryTranslationKeys = {
     questions    = "IGUI_TTRPDescriptors_Categories_Questions",
     shapes       = "IGUI_TTRPDescriptors_Categories_Shapes",
     pinnednotes  = "IGUI_TTRPDescriptors_Categories_PinnedNotes",
+    postits      = "IGUI_TTRPDescriptors_Categories_postits",
     propscenes   = "IGUI_TTRPDescriptors_Categories_propscenes",
     notadmin     = "IGUI_TTRPDescriptors_Categories_AdminShapes",
 }
@@ -32,6 +33,7 @@ local CategoryIcons = {
     questions    = "media/ui/QuestionGrey.png",
     shapes       = "media/ui/XGrey.png",
     pinnednotes  = "media/ui/PinnedPaperKnife.png",
+    postits      = "media/ui/Postits.png",
     propscenes   = "media/ui/MetalSignpost.png",
     notadmin     = "media/ui/ExclamationBlue.png",
 }
@@ -66,6 +68,12 @@ local function getIconForSubCategory(categoryKey, subKey)
         end
 
     elseif categoryKey == "pinnednotes" or categoryKey == "notadmin" then
+        local iconName = subKey
+            :gsub("TTRPDescriptors%.", "")
+            :gsub("Floating", "")
+        texturePath = "media/ui/" .. iconName .. ".png"
+
+    elseif categoryKey == "postits" then
         local iconName = subKey
             :gsub("TTRPDescriptors%.", "")
             :gsub("Floating", "")
@@ -173,7 +181,7 @@ end
 
 function InvestigationUi.Window:populateCategories()
     self.categoriesList:clear()
-    local wantedCategories = { "exclamations", "questions", "shapes", "propscenes", "pinnednotes", "notadmin" }
+    local wantedCategories = { "exclamations", "questions", "shapes", "postits", "propscenes", "pinnednotes", "notadmin", }
     local playerIndex = self.playerNum or 0
     local isAdmin = isAdminUser(playerIndex)
 
@@ -188,6 +196,8 @@ function InvestigationUi.Window:populateCategories()
             elseif cat == "pinnednotes" and not SandboxVars.TTRPDescriptors.TogglePinnedNotes then
                 allowCategory = false
             elseif cat == "shapes" and not SandboxVars.TTRPDescriptors.ToggleShapes then
+                allowCategory = false
+            elseif cat == "postits" and not SandboxVars.TTRPDescriptors.TogglePostits then
                 allowCategory = false
             elseif cat == "propscenes" and not SandboxVars.TTRPDescriptors.ToggleProps then
                 allowCategory = false

@@ -30,6 +30,12 @@ option  TTRPDescriptors.ToggleProps
 	page = TTRP Descriptors, translation = ToggleProps,
 }
 
+option  TTRPDescriptors.TogglePostits
+{
+	type = boolean, default = false,
+	page = TTRP Descriptors, translation = TogglePostits,
+}
+
 option  TTRPDescriptors.AllowNonAdminShapes
 {
 	type = boolean, default = false,
@@ -42,3 +48,17 @@ option  TTRPDescriptors.ToggleUI
 	page = TTRP Descriptors, translation = ToggleUI,
 }
 
+option  TTRPDescriptors.ToggleHaloText
+{
+	type = boolean, default = true,
+	page = TTRP Descriptors, translation = ToggleText,
+}
+
+option  TTRPDescriptors.HaloTextPopupRange
+{
+	type = integer, 
+	default = 2,
+	min = 1,
+	max = 15,
+	page = TTRP Descriptors, translation = TextRange,
+}

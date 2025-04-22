@@ -168,6 +168,41 @@ TTRPshapes.shapes = TTRPshapes.shapes or {
     ['TTRPDescriptors.PinnedPaperScrewdriver']= { r = 128, g = 128, b = 128 },
 }
 
+TTRPshapes.postits = TTRPshapes.postits or {
+    ['TTRPDescriptors.PinnedNoteYellow']= { r = 255, g = 255, b = 0 },
+    ['TTRPDescriptors.PinnedNoteGreen']= { r = 0, g = 255, b = 0 },
+    ['TTRPDescriptors.PinnedNotePurple']= { r = 128, g = 0, b = 128 },
+    ['TTRPDescriptors.PinnedNoteRed']= { r = 255, g = 0, b = 0 },
+    ['TTRPDescriptors.PinnedNoteSuperYellow']= { r = 255, g = 255, b = 102 },
+    ['TTRPDescriptors.PinnedNoteCyan']= { r = 0, g = 255, b = 255 },
+    ['TTRPDescriptors.PinnedNoteBlue']= { r = 0, g = 0, b = 255 },
+    ['TTRPDescriptors.PinnedNotePink']= { r = 255, g = 105, b = 180 },
+    ['TTRPDescriptors.MagnetNoteYellow']= { r = 255, g = 255, b = 0 },
+    ['TTRPDescriptors.MagnetNoteGreen']= { r = 0, g = 255, b = 0 },
+    ['TTRPDescriptors.MagnetNotePurple']= { r = 128, g = 0, b = 128 },
+    ['TTRPDescriptors.MagnetNoteRed']= { r = 255, g = 0, b = 0 },
+    ['TTRPDescriptors.MagnetNoteSuperYellow']= { r = 255, g = 255, b = 102 },
+    ['TTRPDescriptors.MagnetNoteCyan']= { r = 0, g = 255, b = 255 },
+    ['TTRPDescriptors.MagnetNoteBlue']= { r = 0, g = 0, b = 255 },
+    ['TTRPDescriptors.MagnetNotePink']= { r = 255, g = 105, b = 180 },
+    ['TTRPDescriptors.PinnedExclaimNoteYellow']= { r = 255, g = 255, b = 0 },
+    ['TTRPDescriptors.PinnedExclaimNoteGreen']= { r = 0, g = 255, b = 0 },
+    ['TTRPDescriptors.PinnedExclaimNotePurple']= { r = 128, g = 0, b = 128 },
+    ['TTRPDescriptors.PinnedExclaimNoteRed']= { r = 255, g = 0, b = 0 },
+    ['TTRPDescriptors.PinnedExclaimNoteSuperYellow']= { r = 255, g = 255, b = 102 },
+    ['TTRPDescriptors.PinnedExclaimNoteCyan']= { r = 0, g = 255, b = 255 },
+    ['TTRPDescriptors.PinnedExclaimNoteBlue']= { r = 0, g = 0, b = 255 },
+    ['TTRPDescriptors.PinnedExclaimNotePink']= { r = 255, g = 105, b = 180 },
+    ['TTRPDescriptors.MagnetExclaimNoteYellow']= { r = 255, g = 255, b = 0 },
+    ['TTRPDescriptors.MagnetExclaimNoteGreen']= { r = 0, g = 255, b = 0 },
+    ['TTRPDescriptors.MagnetExclaimNotePurple']= { r = 128, g = 0, b = 128 },
+    ['TTRPDescriptors.MagnetExclaimNoteRed']= { r = 255, g = 0, b = 0 },
+    ['TTRPDescriptors.MagnetExclaimNoteSuperYellow']= { r = 255, g = 255, b = 102 },
+    ['TTRPDescriptors.MagnetExclaimNoteCyan']= { r = 0, g = 255, b = 255 },
+    ['TTRPDescriptors.MagnetExclaimNoteBlue']= { r = 0, g = 0, b = 255 },
+    ['TTRPDescriptors.MagnetExclaimNotePink']= { r = 255, g = 105, b = 180 },
+}
+
     TTRPshapes.propscenes = TTRPshapes.propscenes or {
     ['TTRPDescriptors.MetalSignpost']= { r = 128, g = 128, b = 128 },
     ['TTRPDescriptors.MetalSignpostBloody']= { r = 128, g = 128, b = 128 },
@@ -181,7 +216,9 @@ TTRPshapes.shapes = TTRPshapes.shapes or {
     ['TTRPDescriptors.FloatingWoodSignOvergrown']= { r = 137, g = 34, b = 1 },
     ['TTRPDescriptors.FloatingWoodSignHeal']= { r = 137, g = 34, b = 1 },
     ['TTRPDescriptors.FloatingWoodSign']= { r = 137, g = 34, b = 1 },
-    ['TTRPDescriptors.BloodPuddle']= { r = 255, g = 1, b = 1 },
+    ['TTRPDescriptors.TTRP_Chain']= { r = 93, g = 93, b = 93 },
+    ['TTRPDescriptors.TTRP_ChainBlood']= { r = 150, g = 93, b = 93 },
+    ['TTRPDescriptors.TTRP_ChainBloodOld']= { r = 111, g = 86, b = 76 },
 }
 
     TTRPshapes.notadmin = TTRPshapes.notadmin or {
@@ -362,7 +399,17 @@ function onDeleteSceneConfirm(target, button)
 end
 
 
+local shapeCategories = {
+    TTRPshapes.exclamations,
+    TTRPshapes.questions,
+    TTRPshapes.shapes,
+    TTRPshapes.pinnednotes,
+    TTRPshapes.propscenes,
+    TTRPshapes.postits,
+}
+
 function OnPlayerUpdate(player)
+    if not SandboxVars.TTRPDescriptors.ToggleHaloText then return end
     if not player:isLocalPlayer() then
         return
     end
@@ -370,24 +417,34 @@ function OnPlayerUpdate(player)
     local x = math.floor(player:getX())
     local y = math.floor(player:getY())
     local z = math.floor(player:getZ())
-    local range = 2
-    for xo=-range, range do
-        for yo=-range, range do
+    local range = SandboxVars.TTRPDescriptors.HaloTextPopupRange or 2
+    for xo = -range, range do
+        for yo = -range, range do
             local square = getSquare(x + xo, y + yo, z)
             if square then
                 local worldObjects = square:getWorldObjects()
-                for i=0,worldObjects:size()-1 do
+                for i = 0, worldObjects:size() - 1 do
                     local object = worldObjects:get(i)
                     local item = object:getItem()
-                    local sceneItemType = TTRPshapes.exclamations[item:getFullType()] or TTRPshapes.questions[item:getFullType()] or TTRPshapes.shapes[item:getFullType()] or TTRPshapes.pinnednotes[item:getFullType()] or TTRPshapes.propscenes[item:getFullType()]
-                    if sceneItemType then
-                        local objectModData = object:getModData()
-                        local nowms = getTimestampMs()
-                        local lastSceneHaloMs = objectModData.lastSceneHaloMs or 0
-                        if nowms - lastSceneHaloMs > 50 then
-                            if player:isFacingObject(object, 0.8) then
-                                player:setHaloNote("[img=Question_On]  " .. item:getName(), sceneItemType.r, sceneItemType.g, sceneItemType.b, 50)
-                                objectModData.lastSceneHaloMs = nowms
+                    if item then
+                        local fullType = item:getFullType()
+                        local sceneItemType = nil
+                        for _, category in ipairs(shapeCategories) do
+                            sceneItemType = category[fullType]
+                            if sceneItemType then
+                                break
+                            end
+                        end
+
+                        if sceneItemType then
+                            local objectModData = object:getModData()
+                            local nowms = getTimestampMs()
+                            local lastSceneHaloMs = objectModData.lastSceneHaloMs or 0
+                            if nowms - lastSceneHaloMs > 500 then
+                                if player:isFacingObject(object, 0.8) then
+                                    player:setHaloNote("[img=Question_On]  " .. item:getName(), sceneItemType.r, sceneItemType.g, sceneItemType.b, 60)
+                                    objectModData.lastSceneHaloMs = nowms
+                                end
                             end
                         end
                     end
@@ -396,6 +453,7 @@ function OnPlayerUpdate(player)
         end
     end
 end
+
 
 TTRPshapes.onCreateScene = onCreateScene
 Events.OnFillWorldObjectContextMenu.Add(OnFillWorldObjectContextMenu)

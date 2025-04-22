@@ -1414,4 +1414,394 @@ module TTRPDescriptors {
         Icon	=	BloodPuddle,
 		WorldStaticModel = BloodPuddle,
 	}
+
+        item TTRP_Chain
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Chain,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   3,
+        Icon	=	TTRP_Chain,
+		WorldStaticModel = TTRP_Chain,
+	}
+
+        item TTRP_ChainBlood
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Chain Bloody,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   3,
+        Icon	=	TTRP_ChainBlood,
+		WorldStaticModel = TTRP_ChainBlood,
+	}
+
+        item TTRP_ChainBloodOld
+	{
+        DisplayCategory = TTRPDescriptors,
+		Type	=	Literature,
+        DisplayName = Chain Rusty,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   3,
+        Icon	=	TTRP_ChainBloodOld,
+		WorldStaticModel = TTRP_ChainBloodOld,
+	}
+
+    item PinnedNoteYellow {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Yellow Pinned Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedNoteYellow,
+    WorldStaticModel = PinnedNoteYellow,
+}
+
+item PinnedNoteGreen {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Green Pinned Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedNoteGreen,
+    WorldStaticModel = PinnedNoteGreen,
+}
+
+item PinnedNotePurple {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Purple Pinned Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedNotePurple,
+    WorldStaticModel = PinnedNotePurple,
+}
+
+item PinnedNoteRed {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Red Pinned Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedNoteRed,
+    WorldStaticModel = PinnedNoteRed,
+}
+
+item PinnedNoteSuperYellow {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = SuperYellow Pinned Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedNoteSuperYellow,
+    WorldStaticModel = PinnedNoteSuperYellow,
+}
+
+item PinnedNoteCyan {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Cyan Pinned Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedNoteCyan,
+    WorldStaticModel = PinnedNoteCyan,
+}
+
+item PinnedNoteBlue {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Blue Pinned Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedNoteBlue,
+    WorldStaticModel = PinnedNoteBlue,
+}
+
+item PinnedNotePink {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Pink Pinned Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedNotePink,
+    WorldStaticModel = PinnedNotePink,
+}
+
+item MagnetNoteYellow {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Yellow Magnet Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetNoteYellow,
+    WorldStaticModel = MagnetNoteYellow,
+}
+
+item MagnetNoteGreen {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Green Magnet Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetNoteGreen,
+    WorldStaticModel = MagnetNoteGreen,
+}
+
+item MagnetNotePurple {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Purple Magnet Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetNotePurple,
+    WorldStaticModel = MagnetNotePurple,
+}
+
+item MagnetNoteRed {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Red Magnet Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetNoteRed,
+    WorldStaticModel = MagnetNoteRed,
+}
+
+item MagnetNoteSuperYellow {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = SuperYellow Magnet Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetNoteSuperYellow,
+    WorldStaticModel = MagnetNoteSuperYellow,
+}
+
+item MagnetNoteCyan {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Cyan Magnet Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetNoteCyan,
+    WorldStaticModel = MagnetNoteCyan,
+}
+
+item MagnetNoteBlue {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Blue Magnet Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetNoteBlue,
+    WorldStaticModel = MagnetNoteBlue,
+}
+
+item MagnetNotePink {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Pink Magnet Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetNotePink,
+    WorldStaticModel = MagnetNotePink,
+}
+
+item PinnedExclaimNoteYellow {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Yellow Pinned Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedExclaimNoteYellow,
+    WorldStaticModel = PinnedExclaimNoteYellow,
+}
+
+item PinnedExclaimNoteGreen {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Green Pinned Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedExclaimNoteGreen,
+    WorldStaticModel = PinnedExclaimNoteGreen,
+}
+
+item PinnedExclaimNotePurple {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Purple Pinned Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedExclaimNotePurple,
+    WorldStaticModel = PinnedExclaimNotePurple,
+}
+
+item PinnedExclaimNoteRed {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Red Pinned Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedExclaimNoteRed,
+    WorldStaticModel = PinnedExclaimNoteRed,
+}
+
+item PinnedExclaimNoteSuperYellow {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = SuperYellow Pinned Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedExclaimNoteSuperYellow,
+    WorldStaticModel = PinnedExclaimNoteSuperYellow,
+}
+
+item PinnedExclaimNoteCyan {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Cyan Pinned Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedExclaimNoteCyan,
+    WorldStaticModel = PinnedExclaimNoteCyan,
+}
+
+item PinnedExclaimNoteBlue {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Blue Pinned Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedExclaimNoteBlue,
+    WorldStaticModel = PinnedExclaimNoteBlue,
+}
+
+item PinnedExclaimNotePink {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Pink Pinned Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = PinnedExclaimNotePink,
+    WorldStaticModel = PinnedExclaimNotePink,
+}
+
+item MagnetExclaimNoteYellow {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Yellow Magnet Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetExclaimNoteYellow,
+    WorldStaticModel = MagnetExclaimNoteYellow,
+}
+
+item MagnetExclaimNoteGreen {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Green Magnet Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetExclaimNoteGreen,
+    WorldStaticModel = MagnetExclaimNoteGreen,
+}
+
+item MagnetExclaimNotePurple {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Purple Magnet Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetExclaimNotePurple,
+    WorldStaticModel = MagnetExclaimNotePurple,
+}
+
+item MagnetExclaimNoteRed {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Red Magnet Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetExclaimNoteRed,
+    WorldStaticModel = MagnetExclaimNoteRed,
+}
+
+item MagnetExclaimNoteSuperYellow {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = SuperYellow Magnet Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetExclaimNoteSuperYellow,
+    WorldStaticModel = MagnetExclaimNoteSuperYellow,
+}
+
+item MagnetExclaimNoteCyan {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Cyan Magnet Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetExclaimNoteCyan,
+    WorldStaticModel = MagnetExclaimNoteCyan,
+}
+
+item MagnetExclaimNoteBlue {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Blue Magnet Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetExclaimNoteBlue,
+    WorldStaticModel = MagnetExclaimNoteBlue,
+}
+
+item MagnetExclaimNotePink {
+    DisplayCategory = TTRPDescriptors,
+    Type = Literature,
+    DisplayName = Pink Magnet Exclaim Note,
+    Weight = 0.01,
+    CanBeWrite = true,
+    PageToWrite = 10,
+    Icon = MagnetExclaimNotePink,
+    WorldStaticModel = MagnetExclaimNotePink,
+}
+
+
 }

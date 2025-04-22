@@ -10,18 +10,19 @@ description=
 description=[h1]Features:[/h1]
 description=[list]
 description=[*] Sandbox configurable options, allowing category usage to be disabled for non-admin players, or for scenes to entirely be disabled for non-admin players to allow for a fully curated and immersive experience on RP servers. (By default, all are set to disabled.)
+description=[*]  Sandbox adjustable range for the halo text to appear atop of a player's head, or a sandbox toggle to disable it.
 description=[*] Fully custom made UI to spawn all of the objects/exclaims/props in, crisp and clean.
 description=[*] Halo text above the player's head that displays the name of the scene or RP descriptor, on not only exclaims and questions, but all of the items spawned from the menu.
 description=[*] Floating and ground variants of all the familiar question and exclaims that you know and love.
+description=[*] Custom roleplay-centric immersive items alongside the exclaims and questions, such as post-its, chains, signs, wood posts, etc.
+description=
 description=[/list]
 description=
 description=
 description=And many more features and shapes/world items to be added! If you have a suggestion, feel free to post them in the discord or the comments below!!
 description=
 description=[h1]Planned Features:[/h1]
-description=[*]  More immersive roleplay objects such as corkboards, white boards, noticeboards, etc.
-description=[*]  Sandbox adjustable range for the halo text to appear atop of a player's head, or a sandbox toggle to disable it.
-description=
+description=[*]  More immersive roleplay objects such as corkboards, white boards, noticeboards, and much more.
 description=
 description=[h1] FOR BUG REPORTS AND FEEDBACK, VISIT THE DISCORD! [/h1]
 description=[url=https://discord.gg/xZUGun99Jr][img]https://i.imgur.com/WMMNhM1.png[/img][/url]
@@ -29,6 +30,7 @@ description=[h1] If you like my work, consider a donation! [/h1]
 description=[url=https://ko-fi.com/crystalchris][img]https://i.imgur.com/e4sIo9x.png[/img][/url]
 description=[h1] Special thanks to the many proud patriots of the PZ Modding Community discord for their endless tolerance of my presence. [/h1]
 description=[url=https://discord.gg/TBZKGSaRZ6][img]https://i.imgur.com/OcsXPpk.png[/img][/url]
+description=
 description=
 description=
 description=Workshop ID: 3452557509

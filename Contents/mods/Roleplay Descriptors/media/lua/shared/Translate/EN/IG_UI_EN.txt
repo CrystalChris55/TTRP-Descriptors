@@ -7,4 +7,5 @@ IGUI_TTRPDescriptors_Categories_Shapes = "Shapes Scenes",
 IGUI_TTRPDescriptors_Categories_propscenes = "Prop Scenes",
 IGUI_TTRPDescriptors_Categories_PinnedNotes = "Pinned Notes",
 IGUI_TTRPDescriptors_Categories_AdminShapes = "Player-made scenes",
+IGUI_TTRPDescriptors_Categories_postits = "Post-it-notes",
 }
